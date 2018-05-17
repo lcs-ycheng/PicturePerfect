@@ -56,7 +56,7 @@ for counter in 1...countOfPhotoArrangementsToBeConsidered {
         continue
     }
     //The given input have to be positive
-    if integerInput < 0 {
+    if integerInput < 0 || integerInput > 65000{
         continue
     }
     //find the square root of the integer input
