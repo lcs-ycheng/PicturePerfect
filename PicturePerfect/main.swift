@@ -33,7 +33,7 @@ while 1 == 1 {
 //find another common factor
 var anotherCommonFactor = 0
 //find the perimeter
-var permieter = 0
+var perimeter = 0
 
 // PROCESS & OUTPUT
 // Implement the primary logic of the problem here
@@ -71,10 +71,10 @@ for counter in 1...countOfPhotoArrangementsToBeConsidered {
             //find another common factor
             anotherCommonFactor = integerInput / commonFactor
             print(anotherCommonFactor)
-            //find the permieter
-            permieter = 2 * (anotherCommonFactor + commonFactor)
+            //find the perimeter
+            perimeter = 2 * (anotherCommonFactor + commonFactor)
             //print out the solution
-            print("Perimeter is \(permieter) with dimensions \(commonFactor) by \(anotherCommonFactor).")
+            print("Minimum perimeter is \(perimeter) with dimensions \(commonFactor) by \(anotherCommonFactor).")
             break //stop the loop
             //the biggest common factor has the smallest permieter
         }
